@@ -13,7 +13,7 @@ const App = () => {
       <h1>courses or modules List</h1>
       <ul>
         {items.map((item, index) => (
-          <li key={index} className={item.completed ? 'completed' : 'not-completed`'}>
+          <li key={index} className={item.completed ? 'completed' : 'not-completed'}>
             {item.name}
           </li>
         ))}
